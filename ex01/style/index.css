@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  display: none;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+.title {
+  color: rgb(25, 0, 255);
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.galery {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.pic {
+  position: relative;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.pic img {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.row1 {
+  margin-top: 120px;
+}
+
+.row2 {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.paragraph {
+  float: left;
+  text-align: justify;
+}
